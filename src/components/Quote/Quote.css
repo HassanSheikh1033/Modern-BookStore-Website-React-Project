@@ -1,0 +1,46 @@
+.Quote {
+  background: var(--color-bg-2);
+}
+.quote-title {
+  text-align: center;
+}
+.quote-container article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+.quote-container article p {
+  font-size: 24px;
+  color: var(--color-dark);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.quote-container article h5 {
+  color: var(--color-dark);
+}
+
+
+
+@media (max-width:1024px) {
+    .quote-container article p {
+        font-size: 22px;
+        width: 80%;
+    }
+    .quote-container article h5 {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .quote-container {
+       gap: 30px;
+    }
+    .quote-container article p {
+        font-size: 20px !important;
+        width: 100%;
+    }
+}

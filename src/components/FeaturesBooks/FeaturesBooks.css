@@ -1,0 +1,40 @@
+.features-book-container{
+    position: relative;
+}
+.featurebook-box{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+.featurebook{
+    background-color: var(--color-light);
+}
+.featurebook-info>div{
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.feature-border{
+    background: var(--color-dark-Ex);
+    margin-top: 56px;
+    height: 1px;
+    width: 100%;
+}
+.features-book-container .swiper-pagination{
+    margin: auto;
+    margin-top: 60px;
+}
+.feature-btn{
+    margin: auto;
+    margin-right: 0;
+    margin-top: -40px;
+}
+
+/* ==================== Media - Responsive ===================== */
+@media (max-width:1024px) {
+    .feature-btn{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
